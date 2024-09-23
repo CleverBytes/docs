@@ -130,7 +130,7 @@ Since many JavaScript frameworks also use "curly" braces to indicate a given exp
 
 Hello, @{{ name }}.
 ```
-
+   - [Additional Attributes](#additional-attributes)
 In this example, the `@` symbol will be removed by Blade; however, `{{ name }}` expression will remain untouched by the Blade engine, allowing it to be rendered by your JavaScript framework.
 
 The `@` symbol may also be used to escape Blade directives:
